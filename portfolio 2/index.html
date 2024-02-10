@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!----header design----->
+    <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+<!-------home section design--------->
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Mitali Maurya</h1>
+        <h3>And I'm a <span class="multiple-text"></span></h3>
+        <p> A passionate and motivated fresher web developer with a strong
+            determination to make my mark in the ever-evolving digital world.
+            Explore my projects to witness my dedication to pushing the 
+            boundaries of web development.</p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/mitali-maurya/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/MitaliM13" target="_blank"><i class='bx bxl-github'></i></a>
+            </div>
+            <a href="final Resume.pdf" download="Resume" target="_blank" class="btn">Download Resume</a>
+    </div>
+
+    <div class="home-img">
+        <img src="image/home2.png">
+    </div>
+</section>
+
+<!-------------about section design------------------>
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="image/about2.png">
+    </div>
+    
+    <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Frontend Developer!</h3>
+    <p>From a young age, I've been fascinated by technology and its boundless potential 
+        to shape the way we interact and experience the world. This fascination led me to
+         pursue a degree in Information technology, where I honed 
+        my coding skills and discovered my true passion for web development.
+        Proficient in HTML, CSS, and JavaScript, I thrive on crafting intuitive
+         and visually appealing websites that deliver seamless user experiences. </p>
+    </div>
+</section>
+
+
+
+<!-------------Portfolio Section design--------->
+
+<section class="projects" id="projects">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="project-container">
+        <div class="project-box">
+            <img src="image/Sociobook.png">
+            <div class="project-layer">
+                <h4>Socio Book</h4>
+                <p>A FaceBook clone built using HTML, CSS and JavaScript.
+                    Available in light and dark mode.
+                </p>
+                    <a href="https://sociob.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="image/QRcode.png">
+            <div class="project-layer">
+                <h4>QR Code Generator</h4>
+                <p>Type the site name or Url address and get the QR code</p>
+                    <a href="https://qrgenr.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="image/notes.png">
+            <div class="project-layer">
+                <h4>Notes</h4>
+                <p>A place to store your thoughts and plans</p>
+                    <a href="https://make-ur-notes.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="image/to-do.png">
+            <div class="project-layer">
+                <h4>To- Do List</h4>
+                <p>Plan Your day Or write your goals and checkout the one's completed</p>
+                    <a href="https://tododu.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="image/weather.png">
+            <div class="project-layer">
+                <h4>Weather App</h4>
+                <p>Get the Weather Conditions of any city across the world.</p>
+                    <a href="https://knw-weather.netlify.app/"  target="_blank"><i class='bx bx-link-external'></i></a>
+            </div> 
+        </div>
+
+
+        <div class="project-box">
+            <img src="image/signup.png">
+            <div class="project-layer">
+                <h4>Sign up page</h4>
+                <p>Built using HTML, CSS and JavaScript. A sample signup page</p>
+                    <a href="https://signinlogin.netlify.app/" target="_blank"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!---------contact section design------------->
+
+<section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Email Subject">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+</section>
+
+<!------------scroll reveal--------->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--------custom js----->
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
